@@ -129,7 +129,7 @@ const Main: FC = () => {
 
                 >
                     <span className="icon">{running ? <Pause /> : <Play />}</span>
-                    <span className="mx-1">{running ? "Stop" : "Start"}</span>
+                    <span className="mx-1">{running ? "Pause" : "Start"}</span>
                 </button>
 
                 <button
